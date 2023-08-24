@@ -47,5 +47,4 @@ const swapper = function(key1, object1, key2, object2) {
   console.log("object1: ", object1);
   console.log("object2: ", object2);
 };
-
 ```
