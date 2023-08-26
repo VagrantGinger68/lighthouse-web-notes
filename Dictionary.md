@@ -44,13 +44,17 @@
 
 ## Reduce
 
-## 
+## Recursion (in loops)
 
-## 
+## Recursive Case
 
-## 
+## Base Case
 
-## 
+## Iteration (in loops)
+
+## Methods
+
+## Arrow Function
 
 ## 
 
