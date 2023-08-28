@@ -56,5 +56,5 @@
 
 ## Arrow Function
 
-## 
+## JS Data Types
 
