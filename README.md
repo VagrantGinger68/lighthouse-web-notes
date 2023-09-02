@@ -29,3 +29,5 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
   * [Day 2](/Week_2/Day_2/) 
   * [Day 3](/Week_2/Day_3/)
   * [Day 4](/Week_2/Day_4/)
+  * [Day 5](/Week_2/Day_5/)
+  * [Weekend](/Week_2/Weekend/)
