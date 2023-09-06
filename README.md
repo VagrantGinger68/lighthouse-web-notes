@@ -36,3 +36,5 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
 
 * [Week 3](/Week_3/)
   * [Day 1](/Week_3/Day_1/)
+  * [Day 2](/Week_3/Day_2/)
+
