@@ -201,3 +201,5 @@ console.log(numMultipliedByTwo)// [2,4,6]
 ## Express
 
 ## EJS
+
+## Cookies
