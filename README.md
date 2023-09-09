@@ -39,6 +39,6 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
   * [Day 2](/Week_3/Day_2/)
   * Day 3 and 4 were spent working on [TinyApp](https://github.com/VagrantGinger68/tinyapp)
   * Day 5 was spent learning about Tree data structures
-
+  * [Weekend](/Week_3/Weekend/)
 
 
