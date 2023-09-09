@@ -159,47 +159,226 @@ console.log(numMultipliedByTwo)// [2,4,6]
 ```
 
 ## For Each
+Executes a provided function once for each array element.
+```js
+const array1 = [1,2,3]
+
+array1.forEach((element) => {
+  console.log(element) 
+})
+
+//1
+//2
+//3
+```
 
 ## Filter
+Creates a "shallow copy" of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provide function.
+```js
+const words = ['hello', 'world', 'coding', 'elephant', 'computer', 'pizza'];
+
+const result = words.filter((word) => word.length > 6);
+
+console.log(result);
+//["elephant", "computer"]
+```
 
 ## Reduce
+Executes a user-provide "reducer" callback function on each element of an array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements is a single value.
+```js
+const array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce((accumulator, currentValue) => accumulator + currentValue, initialValue);
+
+console.log(sumWithInitial);
+//10
+```
 
 ## Recursion (in loops)
+A function taht calls itself until is satisfies an exit condition.
+```js
+function countDownFrom(number) {
+	if (number === 0) {
+		return;
+	}
+    console.log(number);    
+    countDownFrom(number - 1);
+}
+
+countDownFrom(5);
+```
 
 ## Recursive Case
+The part where the function calls on itself.
+```js
+// function countDownFrom(number) {
+	// if (number === 0) {
+		// return;
+	// }
+    // console.log(number);    
+    countDownFrom(number - 1);
+// }
+
+// countDownFrom(5);
+```
 
 ## Base Case
+The condition to stop the recursion.
+```js
+// function countDownFrom(number) {
+	if (number === 0) {
+		return;
+	}
+    // console.log(number);    
+    // countDownFrom(number - 1);
+// }
+
+// countDownFrom(5);
+```
 
 ## Iteration (in loops)
+The process of repeating the same procedure multiple times.
+For and While loops are examples of Iteration.
 
 ## Methods
+A shorter syntax that defining a function property in an object. It can also be used in classes.
+```js
+const obj = {
+  hello() {
+    return 'world!';
+  },
+};
+
+console.log(obj.hello());
+//'world!'
+```
 
 ## Arrow Function
-
-## JS Data Types
+A compact alternative to a traditional function expression.
+```js
+const arr = [1,2,3]
+arr.forEach((num) => console.log(num));
+```
 
 ## Async
+Enables a program to start a potentially long-running task and still be able to be responsive to other tasks while that task runs, rather than needing to wait for that task to finish.
 
 ## Promises
+Represents the eventual completion or failure of an asynchronous operation and its returning value.
+```js
+const executorFunction = (resolve, reject) => {
+  if (someCondition) {
+      resolve('I resolved!');
+  } else {
+      reject('I rejected!'); 
+  }
+}
+const myFirstPromise = new Promise(executorFunction);
+```
 
 ## TCP
+A communications standard that enables applications and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
 
 ## HTTP
+A protocol for fetching resources such as HTML documents. It is a client-side protocol so requests are initiated by the recipient (web browser). 
 
 ## JSON
+JSON (JavaScript Object Notation) is a lightweight format for exchanging data between different systems and programming languages, commonly used in web APIs. It consists of key-value pairs.
 
 ## API
+An application program interface (API) is a set of routines, protocols, and
+tools for building software applications. an API specifies how software components should interact.
+Additionally, APIs are used when programming graphical user interface (GUI)
+components.
 
 ## Object Oriented Programming
+a computer programming model that organizes software design around data, or objects, rather than functions and logic.
 
 ## Class
+A template for creating objects. They contain data with code to work on that data. 
+```js
+// Declaration
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
+
+// Expression; the class is anonymous but assigned to a variable
+const Rectangle = class {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+
+// Expression; the class has its own name
+const Rectangle = class Rectangle2 {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+```
 
 ## Inheritance
+To create a class inheritance, use the extends keyword.
+```js
+class Animal {
+  constructor(name) {
+    this.speed = 0;
+    this.name = name;
+  }
+  run(speed) {
+    this.speed = speed;
+    alert(`${this.name} runs with speed ${this.speed}.`);
+  }
+  stop() {
+    this.speed = 0;
+    alert(`${this.name} stands still.`);
+  }
+}
+
+class Rabbit extends Animal {
+  hide() {
+    alert(`${this.name} hides!`);
+  }
+}
+
+let rabbit = new Rabbit("White Rabbit");
+```
 
 ## Super
+A keyword used to access properties on an object literal or class's [[Prototype]].
+```js
+class Rectangle {
+  static logNbSides() {
+    return "I have 4 sides";
+  }
+}
+
+class Square extends Rectangle {
+  static logDescription() {
+    return `${super.logNbSides()} which are all equal`;
+  }
+}
+Square.logDescription(); // 'I have 4 sides which are all equal'
+```
 
 ## Express
+Express is a minimal and flexible Node.js web application framework
+that provides a robust set of features for web and mobile
+applications.
 
 ## EJS
+EJS or Embedded Javascript Templating is a templating engine used by Node.js. Template engine helps to create an HTML template with minimal code. Also, it can inject data into an HTML template on the client side and produce the final HTML.
 
 ## Cookies
+A cookie is a piece of data from a website that is stored within a web browser that the website can retrieve at a later time. 
+
+## Tree Data Structure
+A tree is a data structure where a node can have zero or more children. Each node contains a value. The connection between nodes is called "edges". The structure starts with the "root" node and "branch" of with its descendants, down to its "leaves".
+!["Tree structure image"](https://adrianmejia.com/images/tree-parts.jpg)
