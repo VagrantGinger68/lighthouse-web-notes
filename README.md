@@ -41,7 +41,6 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
   * Day 5 was spent learning about Tree data structures
   * [Weekend](/Week_3/Weekend/)
 
-
 </br>
 
 * [Week 4](/Week_4/)
@@ -50,3 +49,8 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
   * [Day 4](/Week_4/Day_4/)
   * [Day 5](/Week_4/Day_5/)
   * [Weekend](/Week_4/Weekend/)
+
+</br>
+
+* [Week 5](/Week_5/)
+  * [Day 1](/Week_5/Day_1/)
