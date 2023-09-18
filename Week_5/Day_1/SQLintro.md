@@ -63,3 +63,55 @@ The FULL OUTER JOIN will return all cohorts and all students, even when there is
 
 Visual representation of Joining tables: 
 https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
+
+Group by:
+```sql
+SELECT students.name as student, count(assignment_submissions.*) as total_submissions
+FROM assignment_submissions
+JOIN students ON students.id = student_id
+WHERE students.end_date IS NULL
+GROUP BY students.name;
+```
+
+Having:
+```sql
+SELECT students.name as student, count(assignment_submissions.*) as total_submissions
+FROM assignment_submissions
+JOIN students ON students.id = student_id
+WHERE students.end_date IS NULL
+GROUP BY students.name
+HAVING count(assignment_submissions.*) < 100;
+```
+
+Using sub queries can be done as a column in SELECT,FROM sub select table, or search within a result set IN.
+
+As a column in SELECT:
+```sql
+SELECT (
+  SELECT count(*)
+  FROM table_name
+) as total, other_column
+FROM other_table_name
+ORDER BY total;
+```
+
+FROM sub select table:
+```sql
+SELECT avg(total_students) as average_students
+FROM (
+  SELECT count(students) as total_students, cohorts.name as cohort_name
+  FROM students
+  JOIN cohorts on cohorts.id = cohort_id
+  GROUP BY cohorts.name
+) as totals_table;
+```
+
+Search within a result set IN:
+```sql
+SELECT * FROM table
+WHERE id IN (
+  SELECT something_id
+  FROM someTable
+  WHERE something
+);
+```
