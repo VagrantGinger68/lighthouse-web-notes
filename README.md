@@ -48,3 +48,5 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
   * [Day 1](/Week_4/Day_1/)
   * Day 2 and 3 were spend designing [Tweeter](https://github.com/VagrantGinger68/tweeter)
   * [Day 4](/Week_4/Day_4/)
+  * [Day 5](/Week_4/Day_5/)
+  * [Weekend](/Week_4/Weekend/)
