@@ -55,3 +55,4 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
 * [Week 5](/Week_5/)
   * [Day 1](/Week_5/Day_1/)
   * [Day 2](/Week_5/Day_2/)
+  * [Day 3](/Week_5/Day_3/)
