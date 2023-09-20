@@ -148,6 +148,10 @@ The real values passed to (and received by) the function.
 printName("Bob"); //"Bob" is the argument
 ```
 
+## Closures
+JavaScript will retain the context of parent functions, meaning that it will retain references to any variables in parent functions (this is referred to as Lexical Scoping).
+When a function retains the context of a parent function, we call that a "closure".
+
 ## Map
 Creates a new array with the results of call a function on every element in the calling array.
 ```js
