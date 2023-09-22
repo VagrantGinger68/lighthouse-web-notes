@@ -56,3 +56,8 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
   * [Day 1](/Week_5/Day_1/)
   * [Day 2](/Week_5/Day_2/)
   * [Day 3](/Week_5/Day_3/)
+  * Day 4 was spent working on [LightBnB_WebApp](https://github.com/VagrantGinger68/LightBnB/tree/main/LightBnB_WebApp)
+
+</br>
+
+* Week 5 Day 5 - Week 6 Day 4 are designated to mid-term projects
