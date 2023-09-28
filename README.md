@@ -60,4 +60,10 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
 
 </br>
 
-* Week 5 Day 5 - Week 6 Day 4 are designated to mid-term projects
+* Week 5 Day 5 - Week 6 Day 4 are designated to mid-term projects. My group built a [Decision Maker](https://github.com/VagrantGinger68/Lighthouse-Midterm/tree/master)
+
+</br>
+
+* [Week 6](/Week_6/)
+  * [Day 5](/Week_6/Day_5/)
+  * [Weekend](/Week_6/Weekend/)
