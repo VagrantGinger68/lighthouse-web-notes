@@ -66,4 +66,3 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
 
 * [Week 6](/Week_6/)
   * [Day 5](/Week_6/Day_5/)
-  * [Weekend](/Week_6/Weekend/)
