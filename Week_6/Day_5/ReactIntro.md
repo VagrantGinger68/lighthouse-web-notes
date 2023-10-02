@@ -52,3 +52,8 @@ return (
   </div>
 )
 ```
+
+</br>
+
+Good resource for react tips:
+https://reacttraining.com/blog/javascript-the-react-parts#rest-syntax
