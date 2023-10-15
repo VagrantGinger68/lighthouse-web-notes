@@ -66,3 +66,11 @@ This is a [Dictionary](/Dictionary.md) of terms that are important to remember!
 
 * [Week 6](/Week_6/)
   * [Day 5](/Week_6/Day_5/)
+
+</br>
+
+* Week 6 Weekend - Week 8 Day 4 were spent learning the fundamentals of React. We covered creating a react app all the way through learning the methods for testing React apps with Cypress and Jest. We built our first React app called [PhotoLabs](https://github.com/VagrantGinger68/PhotoLabs). It gave us experience with building our app one component at a time, and we connected it to an API for dynamic content.
+
+</br>
+
+Week 8 Day 5 - Week 8 Weekend was the start of our Ruby on Rails portion of the course. We learned a lot about Ruby syntax and conventions for writing code in Ruby.
